@@ -1,6 +1,10 @@
 require: rubocop-rails
 
 AllCops:
+  Exclude:
+    - '.pryrc'
+    - 'bin/*'
+    - 'spec/spec_helper.rb'
   NewCops: enable
 
 Style/FrozenStringLiteralComment:
@@ -8,3 +12,10 @@ Style/FrozenStringLiteralComment:
 
 Style/Documentation:
   Enabled: false
+
+Style/BlockComments:
+  Exclude:
+
+Lint/EmptyBlock:
+  Exclude:
+    - db/schema.rb
