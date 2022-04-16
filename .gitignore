@@ -27,3 +27,14 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# ENV
+.env
+.env.development
+
+# Local stuff
+Gemfile.local
+Gemfile.local.lock
+
+# Config files
+/config/database.yml
