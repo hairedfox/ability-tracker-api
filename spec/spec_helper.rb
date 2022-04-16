@@ -1,6 +1,10 @@
 # Given that it is always loaded, you are encouraged to keep this file as
 # light-weight as possible.
-#
+
+require 'simplecov'
+
+SimpleCov.start
+
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
