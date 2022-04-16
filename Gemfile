@@ -51,6 +51,9 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'guard', '~> 2.18'
+  gem 'guard-rspec', '~> 4.7', require: false
+  gem 'guard-rubocop', '~> 1.5', require: false
   gem 'pry-byebug'
   gem 'pry-rails'
 end
